@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://jpandher0.github.io/fe"],
+    allow_origins=["https://jpandher0.github.io"],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
